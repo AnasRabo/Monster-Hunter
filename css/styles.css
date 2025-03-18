@@ -9,6 +9,7 @@
 }
 body {
   background-color: black;
+  overflow-x: hidden;
 }
 
 img {
@@ -51,11 +52,13 @@ video {
 
 .a1 {
   position: relative;
+  height: 80vh;
 }
 .a1 .img-a1 {
   width: 80%;
   position: absolute;
   top: -30vh;
+  z-index: 1;
 }
 .a1 .content-a1 {
   position: absolute;
@@ -80,10 +83,8 @@ video {
 
 .titre-a2 {
   text-align: center;
-  padding: 5%;
   position: absolute;
-  top: 85vh;
-  left: 27%;
+  left: 35%;
 }
 .titre-a2 h1 {
   font-family: "goblin";
@@ -94,24 +95,26 @@ video {
 
 .a2 {
   position: relative;
+  height: 100vh;
 }
 .a2 video {
   transform: scale(1.1);
   position: absolute;
-  top: 110vh;
+  top: 15%;
   height: 100vh;
   width: 100%;
 }
 .a2 .img-a2 {
-  width: 80%;
+  width: 60%;
   position: absolute;
-  top: -30vh;
+  top: 10%;
+  z-index: 1;
 }
 .a2 .content-a2 {
   position: absolute;
   left: 55%;
   width: 40%;
-  top: 150vh;
+  top: 50%;
 }
 .a2 .content-a2 h2 {
   font-family: "goblin";
@@ -120,6 +123,60 @@ video {
   margin-bottom: 2%;
 }
 .a2 .content-a2 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: azure;
+}
+
+.section3 {
+  position: relative;
+}
+
+.titre-a3 {
+  text-align: center;
+  padding: 5%;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+.titre-a3 h1 {
+  font-family: "goblin";
+  font-size: 55px;
+  color: rgb(255, 187, 0);
+  text-shadow: 1px 5px 30px rgb(182, 232, 247);
+}
+
+.a3 {
+  position: relative;
+  height: 100vh;
+}
+.a3 video {
+  transform: scale(1.1);
+  position: absolute;
+  top: 45%;
+  height: 100vh;
+  width: 100%;
+}
+.a3 .img-a3 {
+  width: 95%;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  z-index: 1;
+}
+.a3 .content-a3 {
+  position: absolute;
+  left: 10%;
+  width: 40%;
+  top: 80%;
+}
+.a3 .content-a3 h2 {
+  font-family: "goblin";
+  font-size: 25px;
+  color: azure;
+  margin-bottom: 2%;
+}
+.a3 .content-a3 p {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   color: azure;
