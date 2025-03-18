@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Goblin";
+    src: url(../font/VTCGoblinHand.ttf);
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    width: 100%;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+}
+
+nav {
+    position: absolute;
+    top: 80%;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-monster {
+    img {
+        position: absolute;
+        width: 50%;
+        left: 40%;
+        bottom: 30%;
+    }
+}
+
+.titre-a1 {
+    text-align: center;
+    padding: 5%;
+
+    h1 {
+        font-family: "goblin";
+        font-size: 55px;
+        color: rgb(255, 187, 0);
+        text-shadow: 1px 5px 30px rgb(182, 232, 247);
+    }
+}
+
+
+
+.a1 {
+    position: relative;
+
+    .img-a1 {
+        width: 80%;
+        position: absolute;
+        top: -30vh;
+
+
+    }
+
+    .content-a1 {
+        position: absolute;
+        right: 0;
+        width: 40%;
+
+        h2 {
+            font-family: "goblin";
+            font-size: 25px;
+            color: azure;
+            margin-bottom: 2%;
+        }
+
+        p {
+            font-family: "Roboto", sans-serif;
+            font-size: 20px;
+            color: azure;
+
+        }
+    }
+}
+
+/// section 2
+.section2 {
+    position: relative;
+}
+
+.titre-a2 {
+    text-align: center;
+    padding: 5%;
+    position: absolute;
+    top: 85vh;
+    left: 27%;
+
+    h1 {
+        font-family: "goblin";
+        font-size: 55px;
+        color: rgb(255, 187, 0);
+        text-shadow: 1px 5px 30px rgb(182, 232, 247);
+    }
+}
+
+.a2 {
+    position: relative;
+    video{
+        transform: scale(1.1);
+        position: absolute;
+        top: 110vh;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .img-a2 {
+        width: 80%;
+        position: absolute;
+        top: -30vh;
+
+
+    }
+
+    .content-a2 {
+        position: absolute;
+        left: 55%;
+        width: 40%;
+        top: 150vh;
+
+        h2 {
+            font-family: "goblin";
+            font-size: 25px;
+            color: azure;
+            margin-bottom: 2%;
+        }
+
+        p {
+            font-family: "Roboto", sans-serif;
+            font-size: 20px;
+            color: azure;
+
+        }
+
+    }
+}
