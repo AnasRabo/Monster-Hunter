@@ -84,7 +84,7 @@ video {
 .titre-a2 {
   text-align: center;
   position: absolute;
-  left: 35%;
+  left: 30%;
 }
 .titre-a2 h1 {
   font-family: "goblin";
@@ -137,7 +137,7 @@ video {
   padding: 5%;
   position: absolute;
   top: 20%;
-  left: 30%;
+  left: 25%;
 }
 .titre-a3 h1 {
   font-family: "goblin";
@@ -177,6 +177,60 @@ video {
   margin-bottom: 2%;
 }
 .a3 .content-a3 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: azure;
+}
+
+.section4 {
+  position: relative;
+}
+
+.titre-a4 {
+  text-align: center;
+  padding: 5%;
+  position: absolute;
+  top: 48%;
+  left: 20%;
+}
+.titre-a4 h1 {
+  font-family: "goblin";
+  font-size: 55px;
+  color: rgb(255, 187, 0);
+  text-shadow: 1px 5px 30px rgb(182, 232, 247);
+}
+
+.a4 {
+  position: relative;
+  height: 100vh;
+}
+.a4 video {
+  transform: scale(1.1);
+  position: absolute;
+  top: 75%;
+  height: 100vh;
+  width: 100%;
+}
+.a4 .img-a4 {
+  width: 100%;
+  position: absolute;
+  top: 60%;
+  right: 25%;
+}
+.a4 .content-a4 {
+  position: absolute;
+  left: 10%;
+  width: 5 0%;
+  bottom: -50%;
+  z-index: 1;
+}
+.a4 .content-a4 h2 {
+  font-family: "goblin";
+  font-size: 25px;
+  color: azure;
+  margin-bottom: 2%;
+}
+.a4 .content-a4 p {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   color: azure;
